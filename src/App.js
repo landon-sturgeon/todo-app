@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { TodoBanner } from "./TodoBanner";
-import { TodoCreater } from "./TodoCreater";
-import { TodoRow } from "./TodoRow";
-import { VisibilityControl } from "./VisibilityControl";
+import { TodoBanner } from "./Component/TodoBanner";
+import { TodoCreater } from "./Component/TodoCreater";
+import { TodoRow } from "./Component/TodoRow";
+import { VisibilityControl } from "./Component/VisibilityControl";
 
 export default class App extends Component {
   constructor(props) {
